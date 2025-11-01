@@ -10,7 +10,6 @@ A lightweight Chrome/Edge extension that adds a **dark theme** to [Fast.com](htt
 -   ⚡ **Keyboard Shortcut** — Instantly toggle with `Ctrl + Shift + F`
 -   🧭 **Popup Toggle** — Enable or disable from the popup UI
 -   🔍 **Mini Preview** — When you’re not on Fast.com, see a live embedded view of it
--   🧹 **Auto Cleanup** — Removes unnecessary containers like footer, language selector, etc.
 -   💾 **Persistent Setting** — Remembers your dark mode preference using Chrome Storage
 
 ---
