@@ -1,0 +1,34 @@
+{
+	"manifest_version": 3,
+	"name": "Fast.com Dark Mode",
+	"version": "1.3",
+	"description": "Toggle dark mode on fast.com and view a clean preview from anywhere.",
+	"permissions": ["storage", "scripting", "tabs"],
+	"action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"48": "icon48.png"
+		}
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://fast.com/*"],
+			"js": ["popup.js"]
+		}
+	],
+	"host_permissions": ["https://fast.com/*"],
+	"commands": {
+		"toggle-dark-mode": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+F"
+			},
+			"description": "Toggle Fast.com dark mode"
+		}
+	},
+	"background": {
+		"service_worker": "background.js"
+	},
+	"developer": {
+		"name": "Syed Fasih"
+	}
+}

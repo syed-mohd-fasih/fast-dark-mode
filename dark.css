@@ -1,0 +1,25 @@
+html,
+body {
+	background-color: #121212 !important;
+	color: #e0e0e0 !important;
+}
+
+div,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+	color: #e0e0e0 !important;
+}
+
+a {
+	color: #80bfff !important;
+}
+
+svg,
+img {
+	filter: invert(0.9) hue-rotate(180deg) !important;
+}
